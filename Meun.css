@@ -1,0 +1,24 @@
+.meun  {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    padding-top: 20%;
+    font-family: sans-serif;
+    background: url("back.jpeg");
+    background-size: cover;
+
+}

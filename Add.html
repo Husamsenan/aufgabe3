@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add</title>
+    <link rel="stylesheet" href="Add.css">
+    <link rel="stylesheet" href="Student.css">
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <script src="Session.js"></script>
+    <script src="Student.js"></script>
+</head>
+<form  action="Add.html" method="post">
+<input  id="Id" class="Add" type="text" name=""placeholder = "ID" ><br>
+<input id = "First Name" class="Add" type="text" name=""placeholder = "First Name" required><br>
+<input id ="Last Name" class="Add" type="text" name=""placeholder = "Last Name"><br>
+    </label> <br>
+    <input id="DOB"   type="date" name="trip-start"
+           value="DOB"
+          > <br>
+    <label class="Add" >
+        Male
+<input id = "male" value="Male" type="radio" name="Placeholder"  >
+    </label>
+    <label class="Add" >
+        Female
+    <input id = "famle" value="Female"  type="radio" name="Placeholder">
+    </label>
+    <select  id = "department"  name="placeholder" required>
+        <option value="">Department</option >
+        <option value="">FB1</option>
+        <option value="">FB2</option>
+        <option value="">FB3</option>
+        <option value="">FB4</option>
+    </select> <br>
+    <label
+            class="Add"> <br>
+        ADD JOINING DATE
+    </label> <br>
+    <input id="joindate"  class="Add" type="date" name="trip-start"
+           value="ADD JOINING DATE"
+           min="2015-01-01"> <br>
+
+<input  id = "email" class="Add" type="text" name=""placeholder = "Email_ID" ><br>
+    <button  onclick="ageCalculator()" type="submit" name="" value="Submit">Submit</button>
+</form>
+<section class="container">
+    <a href="Add.html">
+    </a>
+    <input  type="search" class="light-table-filter" data-table="order-table" placeholder="Filtrer" />
+    <select type="search" class="select-table-filter" data-table="order-table">
+        <option value="">Semester</option>
+        <option value="SommerSemester">SommerSemester</option>
+        <option value="WinterSemester">WinterSemster</option>
+        </select>
+            <select type="search" class="select-table-filter" data-table="order-table">
+                <option value="">Department</option>
+                <option value="FB1">FB1</option>
+                <option value="FB2">FB2</option>
+                <option value="FB3">FB3</option>
+                <option value="FB4">FB3</option>
+                </select>
+                    <h1>List off all Students</h1>
+                    <table id="Studens" class="order-table">
+                        <tr>
+                        <thead>
+                        <th> Student Id</th>
+                        <th>First Name</th>
+                        <th >Last Name</th>
+                        <th>DOB</th>
+                        <th>Gender</th>
+                        <th>Joining Date</th>
+                        <th>Department</th>
+                        <th>Email ID</th>
+                        </thead>
+                        </tr>
+                        <tr>
+                            <td>52346</td>
+                            <td>Maria </td>
+                            <td>Anders</td>
+                            <td>10.10.1997 </td>
+                            <td>Female</td>
+                            <td>01.04.2021</td>
+                            <td>FB1</td>
+                            <td>Maria.Anders@htw.de</td>
+                        </tr>
+                        <tr >
+                            <td>52354</td>
+                            <td>MAx </td>
+                            <td>Müllmann</td>
+                            <td>01.02.2000</td>
+                            <td>Male</td>
+                            <td>01.04.2017</td>
+                            <td>FB2</td>
+                            <td>Max.Müllmann@htw.de</td>
+                        </tr>
+                        <tr>
+                            <td>58343</td>
+                            <td>Ali </td>
+                            <td>Saleh</td>
+                            <td>02.01.1998</td>
+                            <td>Female</td>
+                            <td>01.09.2015 </td>
+                            <td>Fb3</td>
+                            <td>Ali.Saleh@htw.de</td>
+                        </tr>
+                        <tr>
+                            <td>52346</td>
+                            <td>Sara </td>
+                            <td>Anders</td>
+                            <td>01.01.1999 </td>
+                            <td>Male</td>
+                            <td>01.04.2016</td>
+                            <td>FB4</td>
+                            <td>Sara.Anders@htw.de</td>
+                        </tr>
+
+                    </table>
+                </select>
+    </body>
+</section>
+</html>

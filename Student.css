@@ -1,0 +1,45 @@
+.SM  {
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 33%;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+
+body{
+    font-family: sans-serif;
+    background-color: darkcyan;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+#Studens {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Studens td, #Studens th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#Studens tr:nth-child(even){background-color: darkcyan;}
+
+#Studens tr:hover {background-color: darkslategray;}
+
+#Studens th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+}
+
+

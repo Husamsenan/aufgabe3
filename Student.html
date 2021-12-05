@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Methods</title>
+    <link rel="stylesheet" href="Student.css">
+    <script src="Session.js"></script>
+    <script src="Student.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet">
+
+</head>
+<body>
+<section class="container">
+<a href="Add.html">
+    <button class="SM">Add Student</button>
+</a>
+<button class="SM">Update Student</button>
+<button class="SM">delete Student</button>
+    <input  type="search" class="light-table-filter" data-table="order-table" placeholder="Filtrer" />
+    <select type="search" class="select-table-filter" data-table="order-table">
+        <option value="">Semester</option>
+        <option value="SommerSemester">SommerSemester</option>
+        <option value="WinterSemester">WinterSemster</option>
+        <select>
+            <select type="search" class="select-table-filter" data-table="order-table">
+                <option value="">Department</option>
+                <option value="FB1">FB1</option>
+                <option value="FB2">FB2</option>
+                <option value="FB3">FB3</option>
+                <option value="FB3">FB4</option>
+
+                <select>
+<h1>List off all Students</h1>
+<table id="Studens" class="order-table" >
+    <thead class="order-table">
+        <th> Student Id</th>
+        <th>First Name</th>
+        <th >Last Name</th>
+        <th>DOB</th>
+        <th>Gender</th>
+        <th>Semester </th>
+        <th>Department</th>
+        <th>Email ID</th>
+    </thead>
+    </tr>
+    <tr>
+        <td>52346</td>
+        <td>Maria </td>
+        <td>Anders</td>
+        <td>10.10.1997 </td>
+        <td>Female</td>
+        <td>SommerSemester</td>
+        <td>FB1</td>
+        <td>Maria.Anders@htw.de</td>
+    </tr>
+    <tr >
+        <td>52354</td>
+        <td>MAx </td>
+        <td>Müllmann</td>
+        <td>01.02.2000</td>
+        <td>Male</td>
+        <td>WinterSemester</td>
+        <td>FB2</td>
+        <td>Max.Müllmann@htw.de</td>
+    </tr>
+    <tr>
+        <td>58343</td>
+        <td>Ali </td>
+        <td>Saleh</td>
+        <td>02.01.1998</td>
+        <td>Female</td>
+        <td>SommerSemester </td>
+        <td>Fb3</td>
+        <td>Ali.Saleh@htw.de</td>
+    </tr>
+    <tr>
+        <td>52346</td>
+        <td>Sara </td>
+        <td>Anders</td>
+        <td>01.01.1999 </td>
+        <td>Male</td>
+        <td>WinterSemester</td>
+        <td>FB4</td>
+        <td>Sara.Anders@htw.de</td>
+    </tr>
+
+</table>
+                </select>
+</body>
+</html>
